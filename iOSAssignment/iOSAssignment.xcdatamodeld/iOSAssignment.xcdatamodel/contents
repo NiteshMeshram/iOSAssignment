@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES">
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userCellNo" optional="YES" attributeType="String"/>
+        <attribute name="userDOB" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="userFullName" optional="YES" attributeType="String"/>
+        <attribute name="userGender" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userImageURL" optional="YES" attributeType="String"/>
+        <attribute name="userLocation" optional="YES" attributeType="String"/>
+        <attribute name="userPassword" optional="YES" attributeType="String"/>
+        <attribute name="userPhoneNo" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="UserDetails" positionX="-54" positionY="-9" width="128" height="193"/>
+    </elements>
 </model>
